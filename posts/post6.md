@@ -2,7 +2,7 @@
 title: 'iPhone'
 date: 'May 29, 2021'
 excerpt: ''
-cover_image: '/images/posts/bg-img5.jpg'
+cover_image: '/images/posts/pic4.jpg'
 category: 'LIFESTYLE'
 ---
 
