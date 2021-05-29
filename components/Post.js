@@ -4,7 +4,8 @@ import CategoryLabel from './CategoryLabel'
 
 export default function Post({ post, compact }) {
   return (
-    <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
+    // <div className='w-full px-10 py-6 bg-base rounded-lg shadow-md mt-6 border border-gray-500'>
+    <div className='w-full  bg-base rounded-lg shadow-md mt-6 border border-gray-500'>
       {!compact && (
         <Image
           src={post.frontmatter.cover_image}
@@ -31,19 +32,19 @@ export default function Post({ post, compact }) {
       </div>
 
       {!compact && (
-        <div className='flex justify-between items-center mt-6'>
+        <div className='flex justify-between items-center'>
           <Link href={`/blog/${post.slug}`}>
-            <a className='text-gray-900 hover:text-blue-600'>Read More</a>
+            <a className='block text-center border border-gray-500 text-gray-800 font-bold rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-main focus:outline-none focus:shadow-outline w-full'>Read More</a>
           </Link>
           <div className='flex items-center'>
-            <img
+            {/* <img
               src={post.frontmatter.author_image}
               alt=''
               className='mx-4 w-10 h-10 object-cover rounded-full hidden sm:block'
-            />
-            <h3 className='text-gray-700 font-bold'>
+            /> */}
+            {/* <h3 className='text-gray-700 font-bold'>
               {post.frontmatter.author}
-            </h3>
+            </h3> */}
           </div>
         </div>
       )}

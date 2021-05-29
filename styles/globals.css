@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 p {
   margin: 15px 0;
   line-height: 1.8;
@@ -17,6 +19,7 @@ ol {
 
 .blog-text pre {
   background: #f4f4f4;
+  /* background: black; */
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
@@ -34,10 +37,11 @@ ol {
 
 /* Fix category colors in production */
 .bg-yellow-600 {
-  background-color: #d97705;
+  background-color: #D9B44A;
+
 }
 .bg-blue-600 {
-  background: #3929eb;
+  background: #75B1A9;
 }
 .bg-green-600 {
   background-color: #049669;

@@ -13,22 +13,24 @@ export default function PostPage({
 }) {
   return (
     <Layout title={title}>
-      <Link href='/blog'>Go Back</Link>
-      <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
-        <div className='flex justify-between items-center mt-4'>
-          <h1 className='text-5xl mb-7'>{title}</h1>
+      {/* <div className='w-full px-10 py-6 bg-base rounded-lg shadow-md mt-6'> */}
+      <div className='w-full px-10 py-6 bg-base rounded-lg shadow-md'>
+        {/* <div className='flex justify-between items-center mt-4'> */}
+        <div className='flex justify-between items-center'>
+          {/* <h1 className='text-5xl mb-7'>{title}</h1> */}
+           <h1 className='text-5xl mb-7'></h1>
           <CategoryLabel>{category}</CategoryLabel>
         </div>
         <img src={cover_image} alt='' className='w-full rounded' />
 
         <div className='flex justify-between items-center bg-gray-100 p-2 my-8'>
           <div className='flex items-center'>
-            <img
+            {/* <img
               src={author_image}
               alt=''
               className='mx-4 w-10 h-10 object-cover rounded-full hidden sm:block'
             />
-            <h4>{author}</h4>
+            <h4>{author}</h4> */}
           </div>
           <div className='mr-4'>{date}</div>
         </div>
@@ -36,7 +38,13 @@ export default function PostPage({
         <div className='blog-text mt-2'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+        <Link href='/blog' className='block text-center border border-gray-500'>
+          
+          <a className='block text-center border border-gray-500 text-gray-800 font-bold rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-main focus:outline-none focus:shadow-outline w-full'>Go Back</a>
+            
+            </Link>
       </div>
+    
     </Layout>
   )
 }
