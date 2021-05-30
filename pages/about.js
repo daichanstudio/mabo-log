@@ -18,7 +18,7 @@ export default function AboutPage() {
         <p className='ml-5'>旅やファッションを中心とした<br></br>ライフスタイルを面白おかしく伝える雑記帳</p>
 
 
-< div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 flex justify-between items-center mr-5 ml-5  '>
+< div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 flex justify-between items-center   '>
         <div className='w-full  bg-base rounded-lg shadow-md mt-6  pr-5 pl-5 hover:bg-sub border border-gray-500 '>
         <Link href='/blog/category/lifestyle'>
             <a className=' cursor-pointer uppercase hover:bg-sub'>
@@ -35,7 +35,7 @@ export default function AboutPage() {
 
     
        
-        <div className='w-full  bg-base rounded-lg shadow-md mt-6 border  pr-5 pl-5 hover:bg-sub border border-gray-500 '>
+        <div className='w-full  bg-base rounded-lg shadow-md mt-6 border pr-5 pl-5  hover:bg-sub border border-gray-500 '>
           
         <Link href='/blog/category/fashion'>
         <a className=' cursor-pointer uppercase hover:bg-sub'>
