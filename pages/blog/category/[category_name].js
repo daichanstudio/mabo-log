@@ -15,7 +15,7 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
           <CategoryList categories={categories} />
         </div>
         <div className='w-full pr-5 pl-5 md: w-3/4 md: mr-10'>
-          <h1 className='text-5xl border-b-4 pl-1 pt-4 ml-5'>
+          <h1 className='text-5xl border-b-4 pl-1 pt-8 ml-5'>
             Posts in {categoryName}
           </h1>
 

@@ -23,7 +23,7 @@ export default function AboutPage() {
         <Link href='/blog/category/lifestyle'>
             <a className=' cursor-pointer uppercase hover:bg-sub'>
             <p><b>LIFESTYLE</b></p>
-        <Image src="/images/posts/pic12.jpg" alt="lifestyle" height={580} width={380} quality={90} className='rounded-lg'/>
+        <Image src="/images/posts/pic12.jpg" alt="lifestyle" height={580} width={380} quality={90} />
 
         <p><b>シティーボーイの日常</b></p>
               
@@ -40,7 +40,7 @@ export default function AboutPage() {
         <Link href='/blog/category/fashion'>
         <a className=' cursor-pointer uppercase hover:bg-sub'>
         <p><b>FASHION</b></p>
-        <Image src="/images/posts/pic14.jpg" alt="fashion" height={580} width={380} quality={90} className='rounded-lg items-center'/>
+        <Image src="/images/posts/pic14.jpg" alt="fashion" height={580} width={380} quality={90} />
         <p><b>欲しいものが、いっぱいだ！</b></p>
         </a>
         </Link>
@@ -50,7 +50,7 @@ export default function AboutPage() {
         <Link href='/blog'>
         <a className=' cursor-pointer uppercase hover:bg-sub'>
         <p><b>TRIP</b></p>
-        <Image src="/images/posts/pic13.jpg" alt="trip" height={580} width={380} quality={90} className='rounded-lg'/>
+        <Image src="/images/posts/pic13.jpg" alt="trip" height={580} width={380} quality={90} />
         <p><b>会いたくてたまらないから、旅に出た！</b></p>
         </a>
         </Link>

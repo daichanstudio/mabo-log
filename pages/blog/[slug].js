@@ -36,12 +36,12 @@ export default function PostPage({
           <div className='mr-4'>{date}</div>
         </div>
 
-        <div className='blog-text mt-2'>
+        <div className='blog-text mt-2 mr-5 ml-5'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
         <Link href='/blog' className='block text-center border border-gray-500 '>
 
-          <a className='block text-center border border-gray-500 text-gray-800 font-bold rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-main focus:outline-none focus:shadow-outline w-full'>Go Back</a>
+          <a className='block text-center border border-gray-500 text-gray-800 font-bold rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-main focus:outline-none focus:shadow-outline w-full '>Go Back</a>
             
             </Link>
       </div>
