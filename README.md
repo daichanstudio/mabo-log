@@ -1,7 +1,6 @@
 # mabo-log
-You can see all of my original app on "mabo-log" . Please check them out!
-
-
+You can see all of my brother's blog on "mabo-log" . Please check them out!
+<img width="1428" alt="スクリーンショット 2021-08-09 9 11 52" src="https://user-images.githubusercontent.com/72646084/128778580-d94008d2-7f34-4559-901c-2470e00f70cd.png">
 
 
 # Features
