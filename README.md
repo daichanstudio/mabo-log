@@ -8,8 +8,6 @@ https://mabo-log-v2.vercel.app
 # Features
 I'm using React.js, Next.js and Tailwind CSS.
 
-
-
  
 # Requirement
 * React.js 17.0
